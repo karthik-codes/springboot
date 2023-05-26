@@ -25,21 +25,18 @@ public  class RepeatedEleCount {
 	public static void countOccurences2(String str) {
 		 
 		//HashMap char as a key and occurrence as a value  
-		HashMap <Character, Integer> charCount = new HashMap<>();  
-		for (int i = str.length() - 1; i >= 0; i--)   
-		{  
-		if(charCount.containsKey(str.charAt(i)))   
-		{  
-		int count = str.charAt(i);  
-		charCount.put(str.charAt(i), ++count);  
-		}   
-		else   
-		{  
-		charCount.put(str.charAt(i),1);  
-		}  
-		}  
-		System.out.println(charCount);
-		}  
+		 Map<Character,Integer> maps=new HashMap<>();
+	    char[] charArray = str.toCharArray();  
+        for (Character ch : charArray) {
+        	if (maps.containsKey(ch)) {  
+			   maps.put(ch,maps.get(ch)+1 );
+		   }
+		   else {
+			   maps.put(ch,1);
+		   }
+		  }
+	   System.out.println(maps);
+	}
 		
 	
 	public static void countCharecterInString(String str, char ch) {
