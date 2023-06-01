@@ -7,3 +7,4 @@
 #MULTITHREADING# uses different service Employee and Salary Api to combine response in another service using RestTemplate.
 #STARTER MAIL# uses JavaMailSeqnder and MimeMessage to send E-mails via springboot Microservices.
 #SOAP# Implementation of Soap web service.
+#LOGIN-JSP# Implementation of Java Servlets with html and Spring MVC.
