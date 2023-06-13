@@ -9,3 +9,5 @@
 #SOAP# Implementation of Soap web service.
 #LOGIN-JSP# Implementation of Java Servlets with html and Spring MVC.
 #PAGINATION-AND-SORTING# code for pagination and sorting with limit and offset from back-end.
+#DOCKER-DEMO# stands for containerising java package using docker to run on any environment(docker image).
+#Implementation of custom linkedlist and bsf are coded in the package#
